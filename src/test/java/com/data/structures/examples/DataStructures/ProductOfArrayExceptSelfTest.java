@@ -36,4 +36,16 @@ public class ProductOfArrayExceptSelfTest {
         System.out.println(Arrays.toString(productOfArrayExceptSelf.productExceptSelfPrefixSuffixProductApproach(new int[]{-1, 1, 0, -3, 3})));
         assertEquals(Arrays.toString(new int[]{0, 0, 9, 0, 0}), Arrays.toString(productOfArrayExceptSelf.productExceptSelfPrefixSuffixProductApproach(new int[]{-1, 1, 0, -3, 3})));
     }
+
+    @Test
+    public void testProductOfArrayExceptSelfByOptimizedPSPApproach() {
+        System.out.println(Arrays.toString(productOfArrayExceptSelf.productExceptSelfOptimizedPSPApproach(new int[]{1, 2, 3, 4})));
+        assertEquals(Arrays.toString(new int[]{24, 12, 8, 6}), Arrays.toString(productOfArrayExceptSelf.productExceptSelfOptimizedPSPApproach(new int[]{1, 2, 3, 4})));
+    }
+
+    @Test
+    public void testProductOfArrayExceptSelfByOptimizedPSPApproach2() {
+        System.out.println(Arrays.toString(productOfArrayExceptSelf.productExceptSelfOptimizedPSPApproach(new int[]{-1, 1, 0, -3, 3})));
+        assertEquals(Arrays.toString(new int[]{0, 0, 9, 0, 0}), Arrays.toString(productOfArrayExceptSelf.productExceptSelfOptimizedPSPApproach(new int[]{-1, 1, 0, -3, 3})));
+    }
 }
