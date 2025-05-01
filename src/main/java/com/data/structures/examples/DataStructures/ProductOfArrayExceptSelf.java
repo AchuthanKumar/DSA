@@ -50,5 +50,22 @@ public class ProductOfArrayExceptSelf {
         return resultArray;
     }
 
+    public int[] productExceptSelfOptimizedPSPApproach(int[] nums) {
+        int[] resultArray = new int[nums.length];
 
+        resultArray[0] = 1;
+        //Calculate product of prefix and store in results
+        for (int i = 1; i < nums.length; i++) {
+            resultArray[i] = resultArray[i - 1] * nums[i - 1];
+        }
+
+        //Calculate suffix product and store in results
+        int suffixProduct = 1;
+        for (int i = nums.length - 1; i >= 0; i--) {
+            resultArray[i] *= suffixProduct;
+            suffixProduct *= nums[i];
+        }
+
+        return resultArray;
+    }
 }
