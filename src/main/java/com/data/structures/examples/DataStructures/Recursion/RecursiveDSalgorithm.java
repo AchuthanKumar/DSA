@@ -1,4 +1,4 @@
-package com.data.structures.examples.DataStructures;
+package com.data.structures.examples.DataStructures.Recursion;
 
 import org.springframework.stereotype.Service;
 
