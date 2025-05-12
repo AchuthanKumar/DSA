@@ -1,4 +1,4 @@
-package com.data.structures.examples.DataStructures;
+package com.data.structures.examples.DataStructures.PrefixSum;
 
 import com.data.structures.examples.DataStructures.Arrays.PrefixSum.RunningSumOf1DArray;
 import org.junit.jupiter.api.Test;
