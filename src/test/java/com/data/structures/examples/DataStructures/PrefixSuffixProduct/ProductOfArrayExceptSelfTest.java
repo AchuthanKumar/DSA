@@ -1,4 +1,4 @@
-package com.data.structures.examples.DataStructures;
+package com.data.structures.examples.DataStructures.PrefixSuffixProduct;
 
 import com.data.structures.examples.DataStructures.Arrays.PrefixSuffixProduct.ProductOfArrayExceptSelf;
 import org.junit.jupiter.api.Test;

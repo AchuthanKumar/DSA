@@ -1,4 +1,4 @@
-package com.data.structures.examples.DataStructures;
+package com.data.structures.examples.DataStructures.Hashing;
 
 import com.data.structures.examples.DataStructures.Arrays.Hashing.TwoSumLeetCode;
 import org.junit.jupiter.api.Test;
