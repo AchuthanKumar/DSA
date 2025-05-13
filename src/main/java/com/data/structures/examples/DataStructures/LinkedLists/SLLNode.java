@@ -1,8 +1,8 @@
 package com.data.structures.examples.DataStructures.LinkedLists;
 
 public class SLLNode {
-    int value;
-    SLLNode next;
+    public int value;
+    public SLLNode next;
 
     public SLLNode(int value) {
         this.value = value;
