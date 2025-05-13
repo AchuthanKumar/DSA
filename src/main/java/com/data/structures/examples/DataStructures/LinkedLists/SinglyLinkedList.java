@@ -10,8 +10,25 @@ public class SinglyLinkedList {
         head = newNode;
     }
 
+    public void insertAtBeginning(SLLNode newNode) {
+        newNode.next = head;
+        head = newNode;
+    }
+
     public void insertAtEnd(int data) {
         SLLNode newNode = new SLLNode(data);
+        if (head == null) {
+            head = newNode;
+        } else {
+            SLLNode temp = head;
+            while (temp.next != null) {
+                temp = temp.next;
+            }
+            temp.next = newNode;
+        }
+    }
+
+    public void insertAtEnd(SLLNode newNode) {
         if (head == null) {
             head = newNode;
         } else {
