@@ -1,8 +1,8 @@
 package com.data.structures.examples.Algorithms.TwoPointers;
 
 import com.data.structures.examples.Algorithms.LinkedList.TwoPointers.MiddleOfLinkedList;
-import com.data.structures.examples.DataStructures.LinkedLists.SLLNode;
-import com.data.structures.examples.DataStructures.LinkedLists.SinglyLinkedList;
+import com.data.structures.examples.DataStructures.SinglyLinkedLists.SLLNode;
+import com.data.structures.examples.DataStructures.SinglyLinkedLists.SinglyLinkedList;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

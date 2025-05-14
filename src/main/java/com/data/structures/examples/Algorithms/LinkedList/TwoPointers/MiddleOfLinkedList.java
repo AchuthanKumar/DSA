@@ -1,6 +1,6 @@
 package com.data.structures.examples.Algorithms.LinkedList.TwoPointers;
 
-import com.data.structures.examples.DataStructures.LinkedLists.SLLNode;
+import com.data.structures.examples.DataStructures.SinglyLinkedLists.SLLNode;
 import org.springframework.stereotype.Service;
 
 @Service

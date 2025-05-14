@@ -1,4 +1,4 @@
-package com.data.structures.examples.DataStructures.LinkedLists;
+package com.data.structures.examples.DataStructures.SinglyLinkedLists;
 
 
 public class SinglyLinkedList {
