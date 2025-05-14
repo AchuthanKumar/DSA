@@ -1,4 +1,4 @@
-package com.data.structures.examples.DataStructures.LinkedLists;
+package com.data.structures.examples.DataStructures.SinglyLinkedLists;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
