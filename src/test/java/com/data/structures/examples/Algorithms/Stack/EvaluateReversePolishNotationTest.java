@@ -1,6 +1,6 @@
 package com.data.structures.examples.Algorithms.Stack;
 
-import com.data.structures.examples.Algorithms.Arrays.Stack.EvaluateReversePolishNotation;
+import com.data.structures.examples.Algorithms.Arrays.Stack.StackSimulation.EvaluateReversePolishNotation;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

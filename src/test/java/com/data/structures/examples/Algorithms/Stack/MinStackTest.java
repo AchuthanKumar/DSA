@@ -1,8 +1,7 @@
 package com.data.structures.examples.Algorithms.Stack;
 
-import com.data.structures.examples.Algorithms.Arrays.Stack.MinStack;
+import com.data.structures.examples.Algorithms.Arrays.Stack.Basics.MinStack;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

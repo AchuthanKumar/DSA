@@ -1,4 +1,4 @@
-package com.data.structures.examples.Algorithms.Arrays.Stack;
+package com.data.structures.examples.Algorithms.Arrays.Stack.Basics;
 
 import org.springframework.stereotype.Service;
 

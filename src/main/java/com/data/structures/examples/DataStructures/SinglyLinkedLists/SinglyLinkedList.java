@@ -2,7 +2,7 @@ package com.data.structures.examples.DataStructures.SinglyLinkedLists;
 
 
 public class SinglyLinkedList {
-    private SLLNode head;
+    SLLNode head;
 
     public void insertAtBeginning(int data) {
         SLLNode newNode = new SLLNode(data);
