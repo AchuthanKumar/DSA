@@ -1,4 +1,4 @@
-package com.data.structures.examples.Algorithms.TwoPointers;
+package com.data.structures.examples.Algorithms.LinkedList;
 
 import com.data.structures.examples.Algorithms.LinkedList.TwoPointers.LinkedListCycle;
 import com.data.structures.examples.DataStructures.SinglyLinkedLists.SLLNode;
