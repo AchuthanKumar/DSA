@@ -1,4 +1,4 @@
-package com.data.structures.examples.DataStructures.Heap;
+package com.data.structures.examples.DataStructures.Heaps;
 
 import org.springframework.boot.test.context.SpringBootTest;
 import org.junit.jupiter.api.BeforeEach;
