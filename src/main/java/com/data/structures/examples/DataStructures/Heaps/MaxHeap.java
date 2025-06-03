@@ -1,4 +1,4 @@
-package com.data.structures.examples.DataStructures.Heap;
+package com.data.structures.examples.DataStructures.Heaps;
 
 import java.util.Arrays;
 

@@ -1,6 +1,4 @@
-package com.data.structures.examples.DataStructures.Heap;
-
-import org.springframework.stereotype.Service;
+package com.data.structures.examples.DataStructures.Heaps;
 
 public class MinHeap {
     public int[] heapVal;

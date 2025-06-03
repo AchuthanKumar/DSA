@@ -1,4 +1,4 @@
-package com.data.structures.examples.DataStructures.Heap;
+package com.data.structures.examples.DataStructures.Heaps;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
