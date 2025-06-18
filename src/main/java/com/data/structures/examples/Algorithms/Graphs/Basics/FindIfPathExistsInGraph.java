@@ -1,4 +1,4 @@
-package com.data.structures.examples.Algorithms.Graphs;
+package com.data.structures.examples.Algorithms.Graphs.Basics;
 
 import com.data.structures.examples.DataStructures.Graphs.GraphLL;
 import org.springframework.stereotype.Service;
