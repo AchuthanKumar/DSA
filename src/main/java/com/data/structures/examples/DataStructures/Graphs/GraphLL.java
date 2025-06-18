@@ -9,9 +9,15 @@ import java.util.Queue;
 import java.util.Stack;
 
 public class GraphLL {
-    private final List<List<Integer>> adjList;
+    public final List<List<Integer>> adjList;
     private final boolean isUndirected;
     private final int numVertices;
+
+    public GraphLL(List<List<Integer>> adjList, int numVertices, boolean isUndirected) {
+        this.adjList = adjList;
+        this.numVertices = numVertices;
+        this.isUndirected = isUndirected;
+    }
 
     public GraphLL(int numVertices, boolean isUndirected) {
         adjList = new LinkedList<>();
