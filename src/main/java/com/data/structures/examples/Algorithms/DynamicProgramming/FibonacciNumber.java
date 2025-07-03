@@ -40,4 +40,16 @@ public class FibonacciNumber {
         return fibonacciSum[n];
     }
 
+    //    Bottom Up Approach Simplified
+    public int fibBottomUpOptimized(int n) {
+        int a = 0, b = 1, sum = 0;
+
+        for (int i = 2; i <= n; i++) {
+            sum = a + b;
+            a = b;
+            b = sum;
+        }
+
+        return sum;
+    }
 }
