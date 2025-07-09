@@ -1,4 +1,4 @@
-package com.data.structures.examples.Algorithms.DynamicProgramming;
+package com.data.structures.examples.Algorithms.DynamicProgramming.RecursionOrMemoization;
 
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.data.structures.examples.Algorithms.DynamicProgramming;
+package com.data.structures.examples.Algorithms.DynamicProgramming.OneDimensional;
 
 import org.springframework.stereotype.Service;
 
