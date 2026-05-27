@@ -1,4 +1,4 @@
-package com.data.structures.examples.Practice.Arrays.HashMap;
+package com.data.structures.examples.Practice.Arrays.Hashing;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

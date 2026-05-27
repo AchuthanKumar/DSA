@@ -1,4 +1,4 @@
-package com.data.structures.examples.Practice.Arrays.HashMap;
+package com.data.structures.examples.Practice.Arrays.Hashing;
 
 import org.springframework.stereotype.Service;
 

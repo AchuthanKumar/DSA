@@ -22,6 +22,10 @@ public class ValidParentheses {
 //            }
 //        }
 
+//        (){}}{
+//        S :
+//        pop :
+
 //        Approach 2
         for (char currChar : s.toCharArray()) {
             if (currChar == '(' || currChar == '{' || currChar == '[') {
