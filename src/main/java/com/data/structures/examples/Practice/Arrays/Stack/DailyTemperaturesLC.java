@@ -8,8 +8,11 @@ import java.util.Stack;
 public class DailyTemperaturesLC {
 
     public int[] dailyTemperatures(int[] temperatures) {
+        if (temperatures == null || temperatures.length == 0) {
+            return new int[0];
+        }
+
         int[] answers = new int[temperatures.length];
-        answers[temperatures.length - 1 != 0 ? temperatures.length - 1 : 0] = 0;
 
         Stack<Integer> dailyIndices = new Stack<>();
         dailyIndices.push(0);

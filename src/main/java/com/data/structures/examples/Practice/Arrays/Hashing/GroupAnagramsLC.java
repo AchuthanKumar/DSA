@@ -23,16 +23,6 @@ public class GroupAnagramsLC {
             List<String> groupList = groupedAnagrams.getOrDefault(sortedStr, new ArrayList<>());
             groupList.add(string);
             groupedAnagrams.put(sortedStr,groupList);
-
-//            if (!groupedAnagrams.containsKey(sortedStr)) {
-//                List<String> newList = new ArrayList<>();
-//                newList.add(string);
-//                groupedAnagrams.put(sortedStr, newList);
-//            } else {
-//                List<String> existingList = groupedAnagrams.get(sortedStr);
-//                existingList.add(string);
-//                groupedAnagrams.put(sortedStr, existingList);
-//            }
         }
 
         for (String key : groupedAnagrams.keySet()) {
